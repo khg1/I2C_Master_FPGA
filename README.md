@@ -1,4 +1,4 @@
-# FPGA_I2C_BUS_Controller
+# I2C Master for Artix-7 FPGA with Clock Stretching
 
 ## Mealy Finite-state machine (FSM)
 * A 13-state FSM models a sequential logic circuit that controls the output enable of the I/O pins of the FPGA, which are connected to the master and slave clock buses. This FSM is also responsible for detecting whether the slave is busy and holding the clock bus low, which causes clock stretching.
